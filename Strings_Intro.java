@@ -16,7 +16,7 @@ public class Strings_Intro {
 		
 	
 		printSecondAndLastLetter(myWord);
-		findTheEThat(myWord);
+		findTheYThat(myWord);
 		getLength(myWord);
 		firstAndLastThree(myWord);
 	
@@ -38,7 +38,7 @@ public class Strings_Intro {
 	 * This method finds the index of y
 	 * @param "Motherly"
 	 */
-	public static int findTheEThat(String Motherly)
+	public static int findTheYThat(String Motherly)
 	{
 		
 		return Motherly.indexOf('y');
@@ -51,6 +51,7 @@ public class Strings_Intro {
 	 */
 	public static int getLength(String Burger)
 	{
+		System.out.println("The length is " + Burger.substring(Burger.length()) + ".");
 		return Burger.length();
 	}
 	
